@@ -1,0 +1,17 @@
+GetBuzzwordIntent what is the buzzword
+GetBuzzwordIntent what is the daily buzzword
+GetBuzzwordIntent tell me the buzzword
+GetBuzzwordIntent tell me the daily buzzword
+GetBuzzwordIntent give me the buzzword
+GetBuzzwordIntent give me the daily buzzword
+GetBuzzwordIntent get the buzzword
+GetBuzzwordIntent get the daily buzzword
+
+GetQuizAnswerIntent {QuizAnswer}
+GetQuizAnswerIntent the answer is {QuizAnswer}
+GetQuizAnswerIntent my answer is {QuizAnswer}
+GetQuizAnswerIntent answer is {QuizAnswer}
+GetQuizAnswerIntent it is {QuizAnswer}
+GetQuizAnswerIntent it's {QuizAnswer}
+
+GetPassIntent {PassIntent}

@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "intent": "GetBuzzwordIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },    
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+		"intent": "GetQuizAnswerIntent",
+		"slots": [
+      	  {
+        	"name": "QuizAnswer",
+          	"type": "LIST_OF_ANSWERS"
+          }
+  		]
+    },
+    {
+		"intent": "GetPassIntent",
+		"slots": [
+      	  {
+        	"name": "PassIntent",
+          	"type": "LIST_OF_PASSES"
+          }
+  		]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+ }
+ 
