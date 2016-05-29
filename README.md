@@ -9,4 +9,6 @@ This skill is not written by Merriam-Webster Inc. so errors or omissions are pro
 
 The node.js source code files AlexaSkill.js and index.js need to be zipped and uploaded into an AWS Lambda function as per the guidance at https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-lambda-function. A corresponding custom skill needs to be created as per https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/registering-and-managing-alexa-skills-in-the-developer-portal.
 
+Then you need to change the APP_ID near the start of the index.js file to the APP_ID of your skill shown on the Skill Information page.
+
 The intents, custom slot types and sample utterances should be copied from the corresponding files into the custom skill and compiled.
